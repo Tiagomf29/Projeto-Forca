@@ -1,0 +1,129 @@
+#head{
+    background-color: aqua;
+    height: 80px;
+}
+
+h1{
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+#poste-vertical{
+    background-color: grey;
+    border: 1px solid;
+    position: relative;
+    height: 400px;
+    width: 10px;
+    top: 25px;
+}
+
+#poste-horizontal{
+    background-color: grey;
+    border: 1px solid;
+    position: relative;
+    height: 10px;
+    width: 200px;
+    top: 25px;
+}
+
+#cabeca{
+    background-color: grey;
+    border: 1px solid;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 210px;
+    left: 162px;
+    border-radius: 80%;
+    display: none;
+}
+
+#corda{
+    background-color: grey;
+    border: 1px solid;
+    position: absolute;
+    height: 70px;
+    width: 2px;
+    top: 138px;
+    left: 200px;
+    display: none;
+}
+
+#corpo{
+    background-color: grey;
+    border: 1px solid;
+    position: absolute;
+    height: 110px;
+    width: 30px;
+    top: 292px;
+    left: 188px;
+    display: none;
+}
+#mao-direita{
+    background-color: grey;
+    border: 1px solid;
+    position: absolute;
+    height: 60px;
+    width: 10px;
+    top: 292px;
+    left: 256px;
+    transform: skew(50deg);
+    display: none;
+}
+
+#mao-esquerda{
+    background-color: grey;
+    border: 1px solid;
+    position: absolute;
+    height: 60px;
+    width: 10px;
+    top: 292px;
+    left: 140px;
+    transform: skew(130deg);
+    display: none;
+}
+
+#pe-direito{
+    background-color: grey;
+    border: 1px solid;
+    position: absolute;
+    height: 60px;
+    width: 10px;
+    top: 402px;
+    left: 256px;
+    transform: skew(50deg);
+    display: none;
+}
+
+#pe-esquerdo{
+    background-color: grey;
+    border: 1px solid;
+    position: absolute;
+    height: 60px;
+    width: 10px;
+    top: 402px;
+    left: 140px;
+    transform: skew(130deg);
+    display: none;
+}
+
+table {
+    border: 1px solid black;
+    position: absolute;
+    left: 30%;
+    top: 200px;
+
+}
+
+td{   
+    border: 1px solid black;
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+
