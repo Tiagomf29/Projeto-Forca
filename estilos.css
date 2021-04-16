@@ -123,6 +123,15 @@ td{
     width: 30px;
 }
 
+form{
+    text-align: center;    
+}
+
+div form input{
+
+    font-size: 35px;
+
+}
 
 
 
